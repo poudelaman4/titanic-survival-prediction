@@ -21,7 +21,7 @@ I compared the performance of several models to determine the most effective one
 | Support Vector Machine | ~60%               |
 
 **Visualizing the Results:**
-![Model Performance Comparison](screenshots/image_f6aa54.png)
+![Model Performance Comparison](screenshots/model_results.png)
 
 ## 📁 Project Structure
 
@@ -46,6 +46,6 @@ I compared the performance of several models to determine the most effective one
 
 Here are some of the key insights and plots from the data analysis:
 
-![Age Distribution](screenshots/image_f72652.png)
+![Age Distribution](screenshots/testing.png)
 
-![Heatmap of Missing Data](screenshots/image_c3c879.png)
+![Heatmap of Missing Data](screenshots/heatmap.png)
