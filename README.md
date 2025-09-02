@@ -45,7 +45,13 @@ I compared the performance of several models to determine the most effective one
 ## 🖼️ Key Visualizations
 
 Here are some of the key insights and plots from the data analysis:
+### Survival Rate by Gender
+![Survival Rate by Gender](screenshots/sex_survival_rate.png)
 
-![Age Distribution](screenshots/testing.png)
+### Other Key Visualizations
+![Age Distribution](screenshots/1.png)
 
 ![Heatmap of Missing Data](screenshots/heatmap.png)
+
+### web app testing Visualizations
+![test](screenshots/testing.png)
