@@ -1,22 +1,51 @@
-# Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction: A Machine Learning Project
 
-My first ML project using the Titanic dataset.  
-I applied multiple ML models (Logistic Regression, Random Forest, SVM, KNN, Decision Tree) and compared their accuracy.
+This project explores the famous Titanic dataset to predict passenger survival using a variety of machine learning models. The goal was to build a robust prediction model and analyze key features that influenced survival.
 
-## Models Performance
-- Logistic Regression: ~79%
-- Random Forest: ~83% (best)
-- Decision Tree: ~74%
-- KNN: ~66%
-- SVM: ~60%
+## ✨ Project Highlights
 
-## Project Structure
-- `data/`: Titanic dataset (train/test files).
-- `notebooks/`: Jupyter notebook with all analysis.
-- `app/`: Flask app for making predictions.
-- `screenshots/`: Visualizations and results.
+* **Data Cleaning:** Handled missing data and converted categorical features into a format suitable for modeling.
+* **Model Comparison:** Trained and evaluated five different machine learning models to find the best performer.
+* **Best Model:** A **Random Forest Classifier** achieved the highest accuracy, successfully predicting survival with approximately **83% accuracy**.
 
-## How to Run Flask App
-```bash
-cd app
-python app.py
+## 📊 Model Performance
+
+I compared the performance of several models to determine the most effective one. The results are summarized below:
+
+| Model                | Validation Accuracy |
+|----------------------|--------------------|
+| Random Forest        | ~83%               |
+| Logistic Regression  | ~79%               |
+| Decision Tree        | ~74%               |
+| K-Nearest Neighbors  | ~66%               |
+| Support Vector Machine | ~60%               |
+
+**Visualizing the Results:**
+![Model Performance Comparison](screenshots/image_f6aa54.png)
+
+## 📁 Project Structure
+
+* `data/`: Contains the raw Titanic `train.csv` and `test.csv` files.
+* `notebook/`: The Jupyter Notebook (`Titanic.ipynb`) with all data analysis, model training, and evaluation steps.
+* `app/`: A lightweight Flask web application to make live predictions.
+* `screenshots/`: A folder containing key visualizations and project results.
+
+## 🚀 How to Run the Flask App
+
+1.  **Navigate to the `app/` directory:**
+    ```bash
+    cd app
+    ```
+2.  **Run the Flask application:**
+    ```bash
+    python app.py
+    ```
+    Your application will be running on `http://127.0.0.1:5000/`.
+
+## 🖼️ Key Visualizations
+
+Here are some of the key insights and plots from the data analysis:
+
+![Age Distribution](screenshots/image_f72652.png)
+
+![Heatmap of Missing Data](screenshots/image_c3c879.png)
